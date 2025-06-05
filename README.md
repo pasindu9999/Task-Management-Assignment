@@ -65,5 +65,15 @@ Instructions:
 2.  Ensure MongoDB is running:
     Start the MongoDB service. By default, it runs on port `27017`.
 
+
 3.  Database Configuration:
     The backend application is configured to connect to a MongoDB instance at `mongodb://localhost:27017` and will use a database named `taskdb`. If your `application.properties` file (located in `task-manager-api/src/main/resources/`) specifies a different database name or connection string, please adjust accordingly. Typically, Spring Boot Data MongoDB will use `test` as the database name if not specified, or the name provided in the `spring.data.mongodb.uri` or `spring.data.mongodb.database` properties. For this project, it defaults to `taskdb` if not overridden.
+
+Screenshots :
+
+![image](https://github.com/user-attachments/assets/fbad5f43-68ee-44e3-bc51-4c80e9da851c)
+![image](https://github.com/user-attachments/assets/49f030c2-6e74-4ef4-813b-2c7d0ce14199)
+![image](https://github.com/user-attachments/assets/99b99d21-0b21-4692-8d85-d6d6641ccb44)
+
+
+
